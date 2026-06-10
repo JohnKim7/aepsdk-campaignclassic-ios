@@ -109,6 +109,7 @@ class RegistrationManager {
                              deviceToken.urlEncoded,
                              integrationKey.urlEncoded,
                              userKey.urlEncoded,
+                             "YES".urlEncoded,
                              UIDevice.current.name.urlEncoded,
                              UIDevice.current.model.urlEncoded,
                              CampaignClassicConstants.REGISTER_PARAM_DEVICE_BRAND_APPLE.urlEncoded,
