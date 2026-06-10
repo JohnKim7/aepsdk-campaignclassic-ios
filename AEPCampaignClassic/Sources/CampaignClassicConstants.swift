@@ -24,7 +24,7 @@ enum CampaignClassicConstants {
     static let REGISTRATION_API_URL_BASE = "https://%@/nms/mobile/1/registerIOS.jssp"
     static let TRACKING_API_URL_BASE = "https://%@/r/?id=h%@,%@,%@"
     // swiftlint:disable line_length
-    static let REGISTRATION_PAYLOAD_FORMAT = "registrationToken=%@&mobileAppUuid=%@&userKey=%@&disabled=%@&deviceName=%@&deviceModel=%@&deviceBrand=%@&deviceManufacturer=%@&osName=%@&osVersion=%@&osLanguage=%@&additionalParams="
+    static let REGISTRATION_PAYLOAD_FORMAT = "registrationToken=%@&mobileAppUuid=%@&userKey=%@&optin=%@&deviceName=%@&deviceModel=%@&deviceBrand=%@&deviceManufacturer=%@&osName=%@&osVersion=%@&osLanguage=%@&additionalParams="
     // swiftlint:enable line_length
     static let REGISTER_PARAM_DEVICE_BRAND_APPLE = "Apple"
     static let REGISTER_PARAM_DEVICE_MANUFACTURER_APPLE = REGISTER_PARAM_DEVICE_BRAND_APPLE
